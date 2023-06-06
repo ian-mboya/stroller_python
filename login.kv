@@ -1,0 +1,145 @@
+<LoginScreen>:
+    canvas.before:
+        Color:
+            rgba: 0.98, 0.96, 0.96, 1  # Background color (FBF6F6)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    Label:
+        text: 'Login'
+        pos: 32, 101
+        size: 104, 31
+
+        # Custom Label attributes
+        font_size: 24
+        bold: False
+        italic: False
+        color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        text_size: self.size
+        halign: 'left'
+        valign: 'middle'
+
+    TextInput:
+        hint_text: 'Email'
+        pos: 20, 175
+        size_hint: None, None
+        size: 390, 52
+
+        # Custom TextInput attributes
+        foreground_color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        font_size: 24
+        italic: True
+        multiline: False
+        background_color: 1, 1, 1, 1  # White color
+        border: (22, 22, 22, 22)  # Border thickness
+        border_color: 0.13, 0.59, 0.95, 1  # Border color (#2196F3)
+
+    # Other elements...
+<LoginScreen>:
+    canvas.before:
+        Color:
+            rgba: 0.98, 0.96, 0.96, 1  # Background color (FBF6F6)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    Label:
+        text: 'Login'
+        pos: 32, 101
+        size: 104, 31
+
+        # Custom Label attributes
+        font_size: 24
+        bold: False
+        italic: False
+        color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        text_size: self.size
+        halign: 'left'
+        valign: 'middle'
+
+    TextInput:
+        hint_text: 'Email'
+        pos: 20, 175
+        size_hint: None, None
+        size: 390, 52
+
+        # Custom TextInput attributes
+        foreground_color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        font_size: 24
+        italic: True
+        multiline: False
+        background_color: 1, 1, 1, 1  # White color
+        border: (22, 22, 22, 22)  # Border thickness
+        border_color: 0.13, 0.59, 0.95, 1  # Border color (#2196F3)
+
+    # Other elements...
+
+        # Custom Button attributes
+        background_color: 1, 1, 1, 1  # White color
+        border_radius: [15, 15, 15, 15]  # Border radius
+        BoxLayout:
+            orientation: 'horizontal'
+            Image:
+                source: 'google_logo.png'  # Path to the Google logo image
+                size_hint: None, None
+                size: 24, 24
+            Label:
+                text: 'Continue with Google'
+                font_size: 24
+                bold: False
+                color: 0, 0, 0, 1  # Black color
+                font_name: 'your_font.ttf'  # Replace with the font file name
+                text_size: self.size
+                halign: 'center'
+                valign: 'middle'
+                  Button:
+        text: 'Submit'
+        pos: 20, 430
+        size_hint: None, None
+        size: 390, 59
+
+        # Custom Button attributes
+        font_size: 24
+        bold: True
+        color: 1, 1, 1, 1  # White color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        background_color: 0.33, 0.65, 0.28, 1  # Button color (#54A747)
+        border_radius: [97, 97, 97, 97]  # Border radius
+
+    Label:
+        text: 'or'
+        pos: 209, 552
+        size: 35, 32
+
+        # Custom Label attributes
+        font_size: 24
+        bold: False
+        color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        text_size: self.size
+        halign: 'center'
+        valign: 'middle'
+
+    Button:
+        pos: 20, 619
+        size_hint: None, None
+        size: 390, 69
+
+    Label:
+        text: 'Not registered yet? Create account'
+        pos: 20, 739
+        size: 344, 36
+
+        # Custom Label attributes
+        font_size: 24
+        bold: False
+        color: 0, 0, 0, 1  # Black color
+        font_name: 'your_font.ttf'  # Replace with the font file name
+        text_size: self.size
+        halign: 'left'
+        valign: 'middle'
